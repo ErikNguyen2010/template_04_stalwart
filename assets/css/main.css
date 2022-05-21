@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    height: 50px;
+}
+.header__brand{
+    float: left;
+    width: 50%;
+}
+
+.header-brand__heading{
+    color: #dc4312;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-top: -4px;
+}
+
+.header-brand__logan{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.navbar{
+    float:right;
+    line-height: 3;
+}
+.navbar__link{
+    color: #42c0ff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+
+}
+.navbar__link--active{
+    color: #de4c1d;
+}
+.carousel{
+    background-image: url(../img/banner2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+.carousel__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: #323232;
+    align-items: flex-end;
+    width: 100%;
+    
+}
+.carousel__heading{
+    background-color: rgba(111,119,124,0.8);
+    font-size: 50px;
+    letter-spacing: 11px;
+    margin-bottom: 40px;
+    margin-right: 300px;
+  
+}
+.carousel__content{
+    background-color: rgba(111,119,124,0.8);
+    font-size: 16px;
+    letter-spacing: 10px;
+    margin-right: 300px;
+}
+.about{
+    background-color: #28c0ff;
+    padding: 30px 0px;
+}
+.about__heading{
+    font-weight: 400;
+    background-color: #73afc8;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about__content{
+    color: #cbd6db
+}
+.welcome{
+    padding: 40px 0;
+}
+.welcome__info{
+    padding: 10px;
+}
+.welcome__header{
+    text-align: center;
+}
+.welcome__main-header{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.welcome__content{
+    font-size: 16px;
+    color: #a8b7c9;
+    margin-bottom: 8px;
+    
+}
+.welcome__main .item{
+    float: left;
+    width: 50%;
+}
+.welcome__img{
+    width: 625px;
+    height: 500px;
+}
+.welcome__icon{
+    display: inline-block;
+    color: #28c0ff;
+    font-size: 30px;
+    padding: 10px;
+}
+.welcome-info__heading{
+    display: inline-block;
+    color: #eb5425;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.welcome-info__detail{
+    color: #b0a9b1;
+    margin-left: 46px;
+}
+.our-work{
+    padding: 0 0 60px 0;
+}
+.our-work__header{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.our-work .list .item{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 3px;
+}
+.our-work__img{
+    width: 100%;
+    height: 100%;
+}
+.post__choices{
+    background: url(../img/index-serives.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 75px;
+}
+.post .post__main .list .item{
+    float: left;
+    width: 50%;
+}
+.post__main-heading{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.post__heading{
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.post__content{
+    color: #b0a9b1;
+    margin-bottom: 5px;
+}
+.post__service{
+    margin-bottom: 25px;
+}
+.post__icon{
+    color: #2dc1ff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.post__detail{
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.post__number{
+    color: #2dc1ff;
+    margin-right: 25px;
+    font-weight: 600;
+}
+.post{
+    padding: 0 0 60px 0;
+}
+.footer{
+    background-color: #242424;
+    color: #686f6f;
+    padding: 30px 0;
+}
+.footer__header{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.footer .list .item{
+    float: left;
+    width: 25%;
+}
+.footer__list{
+    list-style: none;
+}
+.footer__link{
+    text-decoration: none;
+    color: #686f6f;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer__input{
+    width: 200px;
+    padding: 5px;
+}
+.footer__btn{
+    border: none;
+    margin-left: -4px;
+    background-color: #eb5424;
+    color: #fff;
+    padding: 7px 20px;
+}
+.footer__main-header{
+    color: #Fff;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0 0 5px 10px;
+}
